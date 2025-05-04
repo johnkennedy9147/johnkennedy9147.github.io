@@ -67,12 +67,25 @@ h6 {
   text-wrap: balance;
 }
 
-/*
-  10. Create a root stacking context
-*/
-#root,
-#__next {
-  isolation: isolate;
+:root {
+  --color-background-light: #f2fdff;
+  --color-background-dark: #564787;
+  --color-accent: #101935;
+  --color-text-dark: #000;
+  --color-text-light: #fff;
+  --font-heading: "Roboto Slab", serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
 }
 
 nav ul {
