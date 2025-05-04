@@ -83,14 +83,43 @@ h2,
 h3 {
   font-family: var(--font-heading);
 }
+
+header {
+  color: var(--color-text-light);
+  background-color: var(--color-accent);
+  position: sticky;
+  top: 0;
+  padding: 1rem 1.5rem;
+  scroll-padding-bottom: 10em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav h1 {
+  font-size: xx-large;
 }
 
 nav ul {
-  /* 11. Remove default styles */
-  /* all: unset; */
+  all: unset;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: end;
   gap: 1rem;
   list-style: none;
-  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+article {
+  scroll-margin-top: 5em; /* Space for the sticky header - works on big screens, need to fix for mobile*/
 }
