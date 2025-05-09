@@ -133,4 +133,5 @@ nav a {
 
 article {
   scroll-margin-top: 5em; /* Space for the sticky header - works on big screens, need to fix for mobile*/
+  padding-top: 1rem;
 }
