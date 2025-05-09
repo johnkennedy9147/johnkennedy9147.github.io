@@ -74,6 +74,10 @@ h6 {
   --font-body: "Roboto", sans-serif;
 }
 
+html {
+  overscroll-behavior: none;
+}
+
 body {
   font-family: var(--font-body);
 }
