@@ -33,4 +33,5 @@
 - [x] fix sizing of icons in find me...
 - [x] improve styling of find me...
 - [x] fix sticky header styling on narrow screens
-- [x] fix scroll stop on all screen sizes 
+- [x] fix scroll stop on all screen sizes
+- [x] improve whitespace around articles and their headings
