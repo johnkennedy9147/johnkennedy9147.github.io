@@ -3,7 +3,6 @@
 ## Current Tasks
 
 - [ ] improve styling of employment list
-- [ ] make skills list more interesting than a 1D list
 - [ ] improve styling of education section
 - [ ] consider making education section more verbose / descriptive
 - [ ] implement section background colour styling
@@ -35,3 +34,4 @@
 - [x] fix scroll stop on all screen sizes
 - [x] improve whitespace around articles and their headings
 - [x] style key achievements list
+- [x] make skills list more interesting than a 1D list
