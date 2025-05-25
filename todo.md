@@ -2,7 +2,6 @@
 
 ## Current Tasks
 
-- [ ] style key achievements list
 - [ ] improve styling of employment list
 - [ ] make skills list more interesting than a 1D list
 - [ ] improve styling of education section
@@ -35,3 +34,4 @@
 - [x] fix sticky header styling on narrow screens
 - [x] fix scroll stop on all screen sizes
 - [x] improve whitespace around articles and their headings
+- [x] style key achievements list
