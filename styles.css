@@ -143,3 +143,23 @@ article {
 #employment-list > li {
   padding-top: 1rem;
 }
+
+#findMe ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+}
+
+#findMe ul li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#findMe svg,
+#findMe img {
+  width: 100%;
+  height: auto;
+  max-width: 60px; /* Prevents icons from getting too large */
+}
