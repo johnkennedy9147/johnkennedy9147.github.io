@@ -51,6 +51,7 @@ h6 {
 p {
   text-wrap: pretty;
 }
+
 h1,
 h2,
 h3,
@@ -76,6 +77,18 @@ h6 {
 
 html {
   overscroll-behavior: none;
+  scroll-padding-top: 6em;
+}
+
+@media screen and (max-width: 814px) {
+  html {
+    scroll-padding-top: 9em;
+  }
+}
+@media screen and (max-width: 550px) {
+  html {
+    scroll-padding-top: 11em;
+  }
 }
 
 body {
@@ -99,7 +112,6 @@ header {
   position: sticky;
   top: 0;
   padding: 1rem 1.5rem;
-  scroll-padding-bottom: 10em;
 }
 
 nav {
@@ -121,9 +133,10 @@ nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: end;
+  justify-content: start;
   gap: 1rem;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -132,7 +145,6 @@ nav a {
 }
 
 article {
-  scroll-margin-top: 5em; /* Space for the sticky header - works on big screens, need to fix for mobile*/
   padding-top: 1rem;
 }
 
