@@ -10,6 +10,7 @@
 - [ ] implement section background colour styling
 - [ ] complete projects section
 - [ ] Implement dark mode/light mode
+- [ ] look at console warning re google fonts
 
 ## Completed Tasks
 
