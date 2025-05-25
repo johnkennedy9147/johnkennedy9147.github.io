@@ -77,17 +77,17 @@ h6 {
 
 html {
   overscroll-behavior: none;
-  scroll-padding-top: 6em;
+  scroll-padding-top: 7em;
 }
 
 @media screen and (max-width: 814px) {
   html {
-    scroll-padding-top: 9em;
+    scroll-padding-top: 10em;
   }
 }
 @media screen and (max-width: 550px) {
   html {
-    scroll-padding-top: 11em;
+    scroll-padding-top: 12em;
   }
 }
 
