@@ -35,3 +35,4 @@
 - [x] improve whitespace around articles and their headings
 - [x] style key achievements list
 - [x] make skills list more interesting than a 1D list
+- [x] hide codepen and dev.to links until updated those sites
