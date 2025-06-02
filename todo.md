@@ -8,7 +8,7 @@
 - [ ] implement section background colour styling
 - [ ] complete projects section
 - [ ] Implement dark mode/light mode
-- [ ] look at console warning re google fonts
+- [ ] experiment with subsetting and self hosting the google fonts
 
 ## Completed Tasks
 
@@ -36,3 +36,4 @@
 - [x] style key achievements list
 - [x] make skills list more interesting than a 1D list
 - [x] hide codepen and dev.to links until updated those sites
+- [x] look at console warning re google fonts - finding: can be ignored without issue
