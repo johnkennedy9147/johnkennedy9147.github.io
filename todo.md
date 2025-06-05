@@ -5,7 +5,6 @@
 - [ ] improve styling of employment list
 - [ ] improve styling of education section
 - [ ] consider making education section more verbose / descriptive
-- [ ] implement section background colour styling
 - [ ] complete projects section
 - [ ] Implement dark mode/light mode
 - [ ] experiment with subsetting and self hosting the google fonts
@@ -37,3 +36,5 @@
 - [x] make skills list more interesting than a 1D list
 - [x] hide codepen and dev.to links until updated those sites
 - [x] look at console warning re google fonts - finding: can be ignored without issue
+- [x] implement section background colour styling
+- [x] centre article headings
