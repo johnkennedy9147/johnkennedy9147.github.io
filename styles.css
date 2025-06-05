@@ -67,8 +67,9 @@ h6 {
 
 :root {
   --color-background-light: #f2fdff;
-  --color-background-dark: #564787;
+  --color-background-dark: #8499b1;
   --color-accent: #101935;
+  --color-alt-accent: #564787;
   --color-text-dark: #000;
   --color-text-light: #fff;
   --font-heading: "Roboto Slab", serif;
@@ -93,11 +94,6 @@ html {
 
 body {
   font-family: var(--font-body);
-}
-
-main {
-  width: 80%;
-  margin: 0 auto;
 }
 
 h1,
@@ -146,12 +142,18 @@ nav a {
 }
 
 article {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 1rem 10%;
 }
 
 article h2 {
   margin-bottom: 0.5rem;
+}
+
+main article:nth-child(even) {
+  background-color: var(--color-background-dark);
+}
+main article:nth-child(odd) {
+  background-color: var(--color-background-light);
 }
 
 #employment-list {
