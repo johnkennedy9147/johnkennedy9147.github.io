@@ -12,14 +12,15 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  html {
+  :root {
     interpolate-size: allow-keywords;
   }
 }
 
-body {
+:root {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img,
@@ -82,12 +83,12 @@ html {
 }
 
 @media screen and (max-width: 814px) {
-  html {
+  :root {
     scroll-padding-top: 10em;
   }
 }
 @media screen and (max-width: 550px) {
-  html {
+  :root {
     scroll-padding-top: 12em;
   }
 }
@@ -146,7 +147,13 @@ nav a {
 }
 
 article {
-  padding: 1rem 10%;
+  padding: 2rem 20%;
+}
+
+@media screen and (max-width: 814px) {
+  article {
+    padding: 2rem 10%;
+  }
 }
 
 article h2 {
@@ -172,6 +179,15 @@ main article:nth-child(odd) {
   margin-left: 1.5em;
   padding-left: 0.5em;
   list-style: disc;
+}
+
+#education-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#education-list > li {
+  text-align: center;
 }
 
 #findMe ul {
