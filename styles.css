@@ -65,19 +65,15 @@ h6 {
 /* **************************************************** */
 /* Project CSS: */
 /* **************************************************** */
-
 :root {
-  --color-background-light: #f2fdff;
-  --color-background-dark: #8499b1;
-  --color-accent: #101935;
+  --color-background-light: #e3e6ed;
+  --color-background-dark: ##121a31;
+  --color-accent: #121a31;
   --color-alt-accent: #564787;
-  --color-text-dark: #000;
-  --color-text-light: #fff;
+  --color-text-dark: #17203d;
+  --color-text-light: #dae9ff;
   --font-heading: "Roboto Slab", serif;
   --font-body: "Roboto", sans-serif;
-}
-
-html {
   overscroll-behavior: none;
   scroll-padding-top: 7em;
 }
