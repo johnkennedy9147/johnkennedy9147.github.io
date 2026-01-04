@@ -2,12 +2,18 @@
 
 ## Current Tasks
 
+- [ ] research and add skip link for keyboard nav
+- [ ] review keyboard navigation
+- [ ] review screen reader usage
+- [ ] check colour contrast
 - [ ] improve styling of employment list
 - [ ] improve styling of education section
 - [ ] consider making education section more verbose / descriptive
 - [ ] complete projects section
 - [ ] Implement dark mode/light mode
 - [ ] experiment with subsetting and self hosting the google fonts
+- [ ] Once have more content on dev.to uncomment link and add aria label
+- [ ] Once have more content on codepen uncomment link and add aria label
 
 ## Completed Tasks
 
@@ -38,3 +44,8 @@
 - [x] look at console warning re google fonts - finding: can be ignored without issue
 - [x] implement section background colour styling
 - [x] centre article headings
+- [x] remove section background colour styling - doesnt work with short sections
+- [x] add no ai disclaimers
+- [x] update site colours
+- [x] improve structural css
+- [x] add home anchor for h1 link
