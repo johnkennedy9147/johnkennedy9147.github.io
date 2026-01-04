@@ -4,7 +4,7 @@ Developer CV and portfolio site for John Kennedy.
 
 ## About
 
-This site is built **entirely with HTML and CSS** to demonstrate my ability to create clean, accessible, and visually appealing web pages using only these core technologies. No JavaScript or frameworks are used in this version.
+This site is built **entirely with HTML and CSS** to demonstrate my ability to create clean, accessible, and visually appealing web pages using only these fundamental web technologies. No JavaScript or frameworks are used and it was entirely written by myself, without the use of AI. 
 
 ## Features
 
@@ -16,7 +16,7 @@ This site is built **entirely with HTML and CSS** to demonstrate my ability to c
 
 ## Purpose
 
-The goal of this project is to showcase my front-end skills with a focus on HTML and CSS, highlighting what can be achieved without additional libraries or JavaScript.
+The goal of this project is to showcase my front-end skills with a focus on HTML and CSS, highlighting what can be achieved without additional libraries, JavaScript or AI.
 
 ## Hosting
 
