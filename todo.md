@@ -49,3 +49,4 @@
 - [x] update site colours
 - [x] improve structural css
 - [x] add home anchor for h1 link
+- [x] run w3c validators over html and css and fix anything they spot
