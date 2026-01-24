@@ -2,10 +2,8 @@
 
 ## Current Tasks
 
-- [ ] research and add skip link for keyboard nav
 - [ ] review keyboard navigation
 - [ ] review screen reader usage
-- [ ] check colour contrast
 - [ ] improve styling of employment list
 - [ ] improve styling of education section
 - [ ] consider making education section more verbose / descriptive
@@ -52,3 +50,5 @@
 - [x] run w3c validators over html and css and fix anything they spot
 - [x] run lighthouse and fix to 100 across the board - no fixes were needed
 - [x] update svgs to be body text colour
+- [x] check colour contrast
+- [x] research and add skip link for keyboard nav

@@ -104,6 +104,22 @@ h2 {
   text-align: center;
 }
 
+.skiplink {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  width: auto;        
+  height: auto;
+  background-color: var(--color-accent);
+  color: var(--color-text-light);
+  z-index: 1000;
+}
+
+.skiplink:focus,
+.skiplink:active {
+  left: 1rem;
+}
+
 header {
   color: var(--color-text-light);
   background-color: var(--color-accent);
