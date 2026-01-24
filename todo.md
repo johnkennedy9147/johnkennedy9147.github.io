@@ -50,3 +50,5 @@
 - [x] improve structural css
 - [x] add home anchor for h1 link
 - [x] run w3c validators over html and css and fix anything they spot
+- [x] run lighthouse and fix to 100 across the board - no fixes were needed
+- [x] update svgs to be body text colour
