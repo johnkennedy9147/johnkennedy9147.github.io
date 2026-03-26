@@ -61,3 +61,4 @@
 - [x] research and add skip link for keyboard nav
 - [x] change about me tagline from h3 to hgroup p - it is not a heading
 - [x] add missing favicon (images/favicon.ico referenced in head but file does not exist)
+- [x] fix css changes not propogating immediately - css file cached
