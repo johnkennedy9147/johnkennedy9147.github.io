@@ -66,10 +66,11 @@ h6 {
 /* Project CSS: */
 /* **************************************************** */
 :root {
+  /* presntly unused theme colours that might be reused in future design updates */
+  /* --color-background-dark: #121a31; */
+  /* --color-alt-accent: #564787; */
   --color-background-light: #e3e6ed;
-  --color-background-dark: #121a31;
   --color-accent: #121a31;
-  --color-alt-accent: #564787;
   --color-text-dark: #17203d;
   --color-text-light: #dae9ff;
   --font-heading: 'Roboto Slab', serif;
@@ -108,7 +109,7 @@ h2 {
   position: absolute;
   left: -9999px;
   top: 0;
-  width: auto;        
+  width: auto;
   height: auto;
   background-color: var(--color-accent);
   color: var(--color-text-light);
