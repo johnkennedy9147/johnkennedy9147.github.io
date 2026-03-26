@@ -19,7 +19,6 @@
 - [ ] remove redundant aria-label from github img element (alt attribute is sufficient)
 - [ ] move id="home" off body element onto a div or the header instead
 - [ ] make page title more descriptive e.g. "John Kennedy - Full Stack Software Engineer"
-- [ ] change about me tagline from h3 to hgroup p - it is not a heading
 - [ ] update skip link to use modern clip-path technique instead of left: -9999px
 
 ## Completed Tasks
@@ -61,3 +60,4 @@
 - [x] update svgs to be body text colour
 - [x] check colour contrast
 - [x] research and add skip link for keyboard nav
+- [x] change about me tagline from h3 to hgroup p - it is not a heading

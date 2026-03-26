@@ -178,6 +178,13 @@ article h2 {
   margin-bottom: 0.5rem;
 }
 
+hgroup p {
+  font-family: var(--font-heading);
+  font-size: 1.17em;
+  font-weight: bold;
+  text-wrap: balance;
+}
+
 #employment-list {
   list-style: none;
 }
