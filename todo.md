@@ -13,6 +13,14 @@
 - [ ] experiment with subsetting and self hosting the google fonts
 - [ ] Once have more content on dev.to uncomment link and add aria label
 - [ ] Once have more content on codepen uncomment link and add aria label
+- [ ] add missing favicon (images/favicon.ico referenced in head but file does not exist)
+- [ ] add hover and focus styles to nav links (currently no visual feedback on hover)
+- [ ] fix codepen svg comment bug - FA license text not wrapped in html comment, will render as visible text if uncommented; also add aria-label
+- [ ] remove redundant aria-label from github img element (alt attribute is sufficient)
+- [ ] move id="home" off body element onto a div or the header instead
+- [ ] make page title more descriptive e.g. "John Kennedy - Full Stack Software Engineer"
+- [ ] change about me tagline from h3 to hgroup p - it is not a heading
+- [ ] update skip link to use modern clip-path technique instead of left: -9999px
 
 ## Completed Tasks
 
