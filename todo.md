@@ -3,6 +3,7 @@
 ## Current Tasks
 
 - [ ] review keyboard navigation
+- [ ] update keyboard navigation styling - browser defaults look terrible
 - [ ] review screen reader usage
 - [ ] improve styling of employment list
 - [ ] improve styling of education section
