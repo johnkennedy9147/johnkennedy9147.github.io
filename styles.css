@@ -165,9 +165,15 @@ nav a {
 }
 
 nav a:hover,
-nav a:focus {
+nav a:focus-visible {
   text-decoration: underline;
   color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 main {
