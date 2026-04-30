@@ -201,7 +201,22 @@ hgroup p {
 }
 
 #employment-list > li {
+  margin-top: 2.5rem;
+}
+
+#employment-list > li:first-child {
   margin-top: 0.5rem;
+}
+
+#employment-list h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+#employment-list h4 {
+  font-family: var(--font-body);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .achievements ~ ul li {
@@ -217,6 +232,15 @@ hgroup p {
 
 #education-list > li {
   text-align: center;
+}
+
+#education-list > li + li {
+  margin-top: 1.5rem;
+}
+
+#education-list h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
 }
 
 #findMe ul {
