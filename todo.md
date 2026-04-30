@@ -2,23 +2,13 @@
 
 ## Current Tasks
 
-- [ ] review keyboard navigation
-- [ ] update keyboard navigation styling - browser defaults look terrible
-- [ ] review screen reader usage
-- [ ] improve styling of employment list
-- [ ] improve styling of education section
 - [ ] consider making education section more verbose / descriptive
+- [ ] add reference to msc project
 - [ ] complete projects section
 - [ ] Implement dark mode/light mode
 - [ ] experiment with subsetting and self hosting the google fonts
-- [ ] Once have more content on dev.to uncomment link and add aria label
-- [ ] Once have more content on codepen uncomment link and add aria label
-- [ ] add hover and focus styles to nav links (currently no visual feedback on hover)
-- [ ] fix codepen svg comment bug - FA license text not wrapped in html comment, will render as visible text if uncommented; also add aria-label
-- [ ] remove redundant aria-label from github img element (alt attribute is sufficient)
-- [ ] move id="home" off body element onto a div or the header instead
-- [ ] make page title more descriptive e.g. "John Kennedy - Full Stack Software Engineer"
-- [ ] update skip link to use modern clip-path technique instead of left: -9999px
+- [ ] Once have more content on dev.to uncomment link 
+- [ ] Once have more content on codepen uncomment link 
 
 ## Completed Tasks
 
@@ -62,3 +52,14 @@
 - [x] change about me tagline from h3 to hgroup p - it is not a heading
 - [x] add missing favicon (images/favicon.ico referenced in head but file does not exist)
 - [x] fix css changes not propogating immediately - css file cached
+- [x] improve styling of employment list
+- [x] improve styling of education section
+- [x] add hover and focus styles to nav links (currently no visual feedback on hover)
+- [x] fix codepen svg comment bug - FA license text not wrapped in html comment, will render as visible text if uncommented; also add aria-label
+- [x] remove redundant aria-label from github img element (alt attribute is sufficient)
+- [x] move id="home" off body element onto a div or the header instead
+- [x] make page title more descriptive e.g. "John Kennedy - Full Stack Software Engineer"
+- [x] update skip link to use modern clip-path technique instead of left: -9999px
+- [x] review keyboard navigation
+- [x] update keyboard navigation styling - browser defaults look terrible
+- [x] review screen reader usage
