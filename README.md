@@ -1,22 +1,20 @@
-# johnkennedy9147.github.io
+# John Kennedy - CV & Portfolio
 
-Developer CV and portfolio site for John Kennedy.
+Developer CV and portfolio site, hosted at https://johnkennedy9147.github.io
 
 ## About
-
-This site is built **entirely with HTML and CSS** to demonstrate my ability to create clean, accessible, and visually appealing web pages using only these fundamental web technologies. No JavaScript or frameworks are used and it was entirely written by myself, without the use of AI. 
+A personal CV and portfolio page built **entirely with HTML and CSS** to demonstrate what can be achieved with these fundamental web technologies. Built without JavaScript, frameworks or AI assistance.
 
 ## Features
 
 - Responsive layout for desktop and mobile
+- Accessible markup and semantic HTML
+- Skip link for keyboard and screen reader navigation
+- Custom focus-visible styling for keyboard navigation
+- `prefers-reduced-motion` support
 - Custom typography and color scheme
 - Sticky navigation header
 - Sections for About, Employment, Skills, Education, and Online Profiles
-- Accessible markup and semantic HTML
-
-## Purpose
-
-The goal of this project is to showcase my front-end skills with a focus on HTML and CSS, highlighting what can be achieved without additional libraries, JavaScript or AI.
 
 ## Hosting
 
