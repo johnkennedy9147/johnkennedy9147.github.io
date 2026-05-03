@@ -63,3 +63,7 @@
 - [x] update keyboard navigation styling - browser defaults look terrible
 - [x] review screen reader usage
 - [x] Implement dark mode/light mode
+- [x] fix find me icons not inheriting theme colour
+- [x] add hover and focus styling to find me icons
+- [x] update find me icons to use SVG sprites
+- [x] make spacing between section headings and content consistent
