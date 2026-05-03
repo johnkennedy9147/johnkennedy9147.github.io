@@ -12,6 +12,7 @@ A personal CV and portfolio page built **entirely with HTML and CSS** to demonst
 - Skip link for keyboard and screen reader navigation
 - Custom focus-visible styling for keyboard navigation
 - `prefers-reduced-motion` support
+- `prefers-color-scheme` light and dark mode support
 - Custom typography and color scheme
 - Sticky navigation header
 - Sections for About, Employment, Skills, Education, and Online Profiles

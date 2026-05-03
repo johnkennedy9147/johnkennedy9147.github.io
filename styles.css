@@ -66,17 +66,26 @@ h6 {
 /* Project CSS: */
 /* **************************************************** */
 :root {
-  /* presntly unused theme colours that might be reused in future design updates */
-  /* --color-background-dark: #121a31; */
-  /* --color-alt-accent: #564787; */
-  --color-background-light: #e3e6ed;
-  --color-accent: #121a31;
-  --color-text-dark: #17203d;
-  --color-text-light: #dae9ff;
+  color-scheme: light dark;
+  --color-bg-page: #e3e6ed;
+  --color-bg-emphasis: #121a31;
+  --color-text-on-page: #17203d;
+  --color-text-on-emphasis: #dae9ff;
+  --color-text-on-page-hover: #121a31;
+  --color-text-on-emphasis-hover: #ffffff;
   --font-heading: 'Roboto Slab', serif;
   --font-body: 'Roboto', sans-serif;
   overscroll-behavior: none;
   scroll-padding-top: 7em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-page: #121a31;
+    --color-bg-emphasis: #0a1024;
+    --color-text-on-page: #dae9ff;
+    --color-text-on-page-hover: #ffffff;
+  }
 }
 
 @media screen and (max-width: 814px) {
@@ -114,8 +123,8 @@ h2 {
   height: 1px;
   overflow: hidden;
   white-space: nowrap;
-  background-color: var(--color-accent);
-  color: var(--color-text-light);
+  background-color: var(--color-bg-emphasis);
+  color: var(--color-text-on-emphasis);
   z-index: 1000;
 }
 
@@ -127,8 +136,8 @@ h2 {
 }
 
 header {
-  color: var(--color-text-light);
-  background-color: var(--color-accent);
+  color: var(--color-text-on-emphasis);
+  background-color: var(--color-bg-emphasis);
   position: sticky;
   top: 0;
   padding: 1rem 1.5rem;
@@ -159,7 +168,7 @@ nav ul {
   flex-wrap: wrap;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -167,18 +176,23 @@ nav a {
 nav a:hover,
 nav a:focus-visible {
   text-decoration: underline;
-  color: #ffffff;
+  color: var(--color-text-on-emphasis-hover);
+}
+
+#findMe a:hover,
+#findMe a:focus-visible { 
+  color: var(--color-text-on-page-hover);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid currentColor;
   outline-offset: 3px;
   border-radius: 2px;
 }
 
 main {
-  color: var(--color-text-dark);
-  background-color: var(--color-background-light);
+  color: var(--color-text-on-page);
+  background-color: var(--color-bg-page);
 }
 
 article {

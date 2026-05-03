@@ -5,7 +5,6 @@
 - [ ] consider making education section more verbose / descriptive
 - [ ] add reference to msc project
 - [ ] complete projects section
-- [ ] Implement dark mode/light mode
 - [ ] experiment with subsetting and self hosting the google fonts
 - [ ] Once have more content on dev.to uncomment link 
 - [ ] Once have more content on codepen uncomment link 
@@ -63,3 +62,4 @@
 - [x] review keyboard navigation
 - [x] update keyboard navigation styling - browser defaults look terrible
 - [x] review screen reader usage
+- [x] Implement dark mode/light mode
