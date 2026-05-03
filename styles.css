@@ -275,8 +275,7 @@ hgroup p {
   justify-content: center;
 }
 
-#findMe svg,
-#findMe img {
+#findMe svg {
   width: 100%;
   height: auto;
   max-width: 60px;
