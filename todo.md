@@ -5,7 +5,6 @@
 - [ ] add a print stylesheet
 - [ ] add social meta tags
 - [ ] add apple touch icon
-- [ ] add robots.txt
 - [ ] consider adding stuff to prevent ai training
 - [ ] consider adding a footer
 - [ ] update employment history when cv and linkedin get updated
@@ -76,3 +75,4 @@
 - [x] make spacing between section headings and content consistent
 - [x] add 404 page
 - [x] add sitemap
+- [x] add robots.txt
