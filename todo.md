@@ -5,7 +5,6 @@
 - [ ] add a print stylesheet
 - [ ] add social meta tags
 - [ ] add apple touch icon
-- [ ] consider adding stuff to prevent ai training
 - [ ] consider adding a footer
 - [ ] update employment history when cv and linkedin get updated
 - [ ] consider making education section more verbose / descriptive
@@ -14,6 +13,8 @@
 - [ ] experiment with subsetting and self hosting the google fonts
 - [ ] Once have more content on dev.to uncomment link 
 - [ ] Once have more content on codepen uncomment link 
+- [ ] investigate adding `llms.txt` to help AI assistants summarise the site accurately
+- [ ] investigate adding JSON-LD `Person` schema to `index.html` for richer search/AI representation
 
 ## Completed Tasks
 
@@ -76,3 +77,4 @@
 - [x] add 404 page
 - [x] add sitemap
 - [x] add robots.txt
+- [x] update robots.txt with AI crawler policy (allow retrieval, block training, Google-Extended allowed)
