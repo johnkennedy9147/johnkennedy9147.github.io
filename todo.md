@@ -2,6 +2,14 @@
 
 ## Current Tasks
 
+- [ ] add a print stylesheet
+- [ ] add social meta tags
+- [ ] add apple touch icon
+- [ ] add sitemap
+- [ ] add robots.txt
+- [ ] consider adding stuff to prevent ai training
+- [ ] consider adding a footer
+- [ ] update employment history when cv and linkedin get updated
 - [ ] consider making education section more verbose / descriptive
 - [ ] add reference to msc project
 - [ ] complete projects section
@@ -67,3 +75,4 @@
 - [x] add hover and focus styling to find me icons
 - [x] update find me icons to use SVG sprites
 - [x] make spacing between section headings and content consistent
+- [x] add 404 page
