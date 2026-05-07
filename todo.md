@@ -3,7 +3,6 @@
 ## Current Tasks
 
 - [ ] add a print stylesheet
-- [ ] add social meta tags
 - [ ] add apple touch icon
 - [ ] consider adding a footer
 - [ ] update employment history when cv and linkedin get updated
@@ -78,3 +77,4 @@
 - [x] add sitemap
 - [x] add robots.txt
 - [x] update robots.txt with AI crawler policy (allow retrieval, block training, Google-Extended allowed)
+- [x] add OG and twitter meta tags
