@@ -79,3 +79,4 @@
 - [x] update robots.txt with AI crawler policy (allow retrieval, block training, Google-Extended allowed)
 - [x] add OG and twitter meta tags
 - [x] add google verification meta tags
+- [x] replace favicon with matching branding and responsive to light / dark mode preference
