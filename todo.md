@@ -10,8 +10,8 @@
 - [ ] add reference to msc project
 - [ ] complete projects section
 - [ ] experiment with subsetting and self hosting the google fonts
-- [ ] Once have more content on dev.to uncomment link 
-- [ ] Once have more content on codepen uncomment link 
+- [ ] Once have more content on dev.to uncomment link
+- [ ] Once have more content on codepen uncomment link
 - [ ] investigate adding `llms.txt` to help AI assistants summarise the site accurately
 - [ ] investigate adding JSON-LD `Person` schema to `index.html` for richer search/AI representation
 
@@ -78,3 +78,4 @@
 - [x] add robots.txt
 - [x] update robots.txt with AI crawler policy (allow retrieval, block training, Google-Extended allowed)
 - [x] add OG and twitter meta tags
+- [x] add google verification meta tags
