@@ -12,7 +12,9 @@
 - [ ] Once have more content on dev.to uncomment link
 - [ ] Once have more content on codepen uncomment link
 - [ ] investigate adding `llms.txt` to help AI assistants summarise the site accurately
-- [ ] investigate adding JSON-LD `Person` schema to `index.html` for richer search/AI representation
+- [ ] consider some kind of headshot or avatar and if added then add to json ld
+- [ ] consider adding worksfor json ld
+- [ ] consider updating mainentitypage json ld once other site is operational
 
 ## Completed Tasks
 
@@ -80,3 +82,4 @@
 - [x] add google verification meta tags
 - [x] replace favicon with matching branding and responsive to light / dark mode preference
 - [x] add apple touch icon
+- [x] added JSON-LD `Person` schema to `index.html` for richer search/AI representation
