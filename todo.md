@@ -2,7 +2,6 @@
 
 ## Current Tasks
 
-- [ ] add a print stylesheet
 - [ ] consider adding a footer
 - [ ] update employment history when cv and linkedin get updated
 - [ ] consider making education section more verbose / descriptive
@@ -83,3 +82,4 @@
 - [x] replace favicon with matching branding and responsive to light / dark mode preference
 - [x] add apple touch icon
 - [x] added JSON-LD `Person` schema to `index.html` for richer search/AI representation
+- [x] add a print stylesheet

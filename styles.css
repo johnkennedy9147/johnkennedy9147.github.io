@@ -135,6 +135,10 @@ h2 {
   height: auto;
 }
 
+.print-contact {
+  display: none;
+}
+
 header {
   color: var(--color-text-on-emphasis);
   background-color: var(--color-bg-emphasis);
@@ -180,7 +184,7 @@ nav a:focus-visible {
 }
 
 #findMe a:hover,
-#findMe a:focus-visible { 
+#findMe a:focus-visible {
   color: var(--color-text-on-page-hover);
 }
 
@@ -337,4 +341,68 @@ body.error-page main {
 .not-found .home-link:hover,
 .not-found .home-link:focus-visible {
   color: var(--color-text-on-page-hover);
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+
+  :root {
+    color-scheme: light;
+    --color-bg-page: #fff;
+    --color-bg-emphasis: #fff;
+    --color-text-on-page: #000;
+    --color-text-on-emphasis: #000;
+    font-size: 11pt;
+  }
+
+  .skiplink,
+  nav ul,
+  #findMe {
+    display: none;
+  }
+
+  .print-contact {
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  header {
+    position: static;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+
+  article {
+    padding: 0;
+  }
+
+  article + article {
+    margin-top: 1.5rem;
+  }
+
+  #employment-list > li,
+  #education-list > li {
+    break-inside: avoid;
+  }
+
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
 }
