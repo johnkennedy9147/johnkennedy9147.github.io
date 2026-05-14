@@ -7,15 +7,32 @@ A personal CV and portfolio page built **entirely with HTML and CSS** to demonst
 
 ## Features
 
-- Responsive layout for desktop and mobile
+### Layout & design
+- Responsive layout for desktop, tablet and mobile
+- Custom typography and colour scheme
+- Sticky navigation header
+- Sections for About, Employment, Skills, Education, and Online Profiles
+
+### Accessibility
 - Accessible markup and semantic HTML
 - Skip link for keyboard and screen reader navigation
 - Custom focus-visible styling for keyboard navigation
 - `prefers-reduced-motion` support
+
+### Theming
 - `prefers-color-scheme` light and dark mode support
-- Custom typography and color scheme
-- Sticky navigation header
-- Sections for About, Employment, Skills, Education, and Online Profiles
+- Matching `theme-color` meta tags for browser chrome in each mode
+
+### Print
+- Dedicated print stylesheet
+- Print-only contact line exposing the LinkedIn and GitHub URLs
+
+### SEO & discoverability
+- Meta description, canonical URL, and language/region tag
+- Open Graph and Twitter Card tags
+- JSON-LD `Person` structured data
+- `sitemap.xml` and a `robots.txt` with per-use-case AI crawler policy
+- Custom 404 page
 
 ## Hosting
 
