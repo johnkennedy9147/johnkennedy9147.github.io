@@ -7,7 +7,6 @@
 - [ ] consider making education section more verbose / descriptive
 - [ ] add reference to msc project
 - [ ] complete projects section
-- [ ] experiment with subsetting and self hosting the google fonts
 - [ ] Once have more content on dev.to uncomment link
 - [ ] Once have more content on codepen uncomment link
 - [ ] investigate adding `llms.txt` to help AI assistants summarise the site accurately
@@ -83,3 +82,4 @@
 - [x] add apple touch icon
 - [x] added JSON-LD `Person` schema to `index.html` for richer search/AI representation
 - [x] add a print stylesheet
+- [x] self-host Google Fonts and preload
