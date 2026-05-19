@@ -2,6 +2,11 @@
 
 Developer CV and portfolio site, hosted at https://johnkennedy9147.github.io
 
+![Lighthouse Performance](https://img.shields.io/badge/Lighthouse%20Performance-100-brightgreen)
+![Lighthouse Accessibility](https://img.shields.io/badge/Lighthouse%20Accessibility-100-brightgreen)
+![Lighthouse Best Practices](https://img.shields.io/badge/Lighthouse%20Best%20Practices-100-brightgreen)
+![Lighthouse SEO](https://img.shields.io/badge/Lighthouse%20SEO-100-brightgreen)
+
 ## About
 A personal CV and portfolio page built **entirely with HTML and CSS** to demonstrate what can be achieved with these fundamental web technologies. Built without JavaScript, frameworks or AI assistance.
 
@@ -12,6 +17,10 @@ A personal CV and portfolio page built **entirely with HTML and CSS** to demonst
 - Custom typography and colour scheme
 - Sticky navigation header
 - Sections for About, Employment, Skills, Education, and Online Profiles
+
+### Performance
+- Self-hosted Roboto and Roboto Slab variable fonts (`latin` subset) — no third-party Google Fonts request
+- Font files preloaded for fast first paint
 
 ### Accessibility
 - Accessible markup and semantic HTML
