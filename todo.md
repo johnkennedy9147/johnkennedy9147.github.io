@@ -2,8 +2,9 @@
 
 ## Current Tasks
 
+- [ ] address personal email exposure in git history (see `git-email-privacy.md`) — switch local + global config to the GitHub no-reply address, enable "Block command line pushes that expose my email" on GitHub, then decide whether to rewrite past commits with `git filter-repo`
+- [ ] review `backlinks.md` and prioritise next activities to action
 - [ ] consider adding a footer
-- [ ] update employment history when cv and linkedin get updated
 - [ ] consider making education section more verbose / descriptive
 - [ ] add reference to msc project
 - [ ] complete projects section
@@ -11,7 +12,6 @@
 - [ ] Once have more content on codepen uncomment link
 - [ ] investigate adding `llms.txt` to help AI assistants summarise the site accurately
 - [ ] consider some kind of headshot or avatar and if added then add to json ld
-- [ ] consider adding worksfor json ld
 - [ ] consider updating mainentitypage json ld once other site is operational
 
 ## Completed Tasks
@@ -83,3 +83,6 @@
 - [x] added JSON-LD `Person` schema to `index.html` for richer search/AI representation
 - [x] add a print stylesheet
 - [x] self-host Google Fonts and preload
+- [x] updated employment history to match cv and linkedin 
+- [x] added `worksFor` JSON-LD with employment history
+- [x] split JP Morgan employment into two to capture the 2022 promotion 

@@ -39,7 +39,7 @@ A personal CV and portfolio page built **entirely with HTML and CSS** to demonst
 ### SEO & discoverability
 - Meta description, canonical URL, and language/region tag
 - Open Graph and Twitter Card tags
-- JSON-LD `Person` structured data
+- JSON-LD `Person` structured data with employment history
 - `sitemap.xml` and a `robots.txt` with per-use-case AI crawler policy
 - Custom 404 page
 

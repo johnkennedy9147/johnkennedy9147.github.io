@@ -133,6 +133,39 @@
         "givenName": "John",
         "familyName": "Kennedy",
         "jobTitle": "Full Stack Software Engineer",
+        "worksFor": [
+          {
+            "@type": "OrganizationRole",
+            "roleName": "Software Engineer",
+            "startDate": "2023",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Phlo",
+              "url": "https://www.wearephlo.com",
+              "sameAs": ["https://www.linkedin.com/company/wearephlo/"]
+            }
+          },
+          {
+            "@type": "OrganizationRole",
+            "roleName": "Software Engineer III",
+            "startDate": "2022",
+            "endDate": "2023",
+            "worksFor": {
+              "@type": "Organization",
+              "@id": "https://www.jpmorganchase.com/#org",
+              "name": "JP Morgan",
+              "url": "https://www.jpmorganchase.com/",
+              "sameAs": ["https://en.wikipedia.org/wiki/JPMorgan_Chase"]
+            }
+          },
+          {
+            "@type": "OrganizationRole",
+            "roleName": "Software Engineer II",
+            "startDate": "2018",
+            "endDate": "2022",
+            "worksFor": { "@id": "https://www.jpmorganchase.com/#org" }
+          }
+        ],
         "description": "Full stack software engineer from Scotland. Currently building a digital pharmacy platform at Phlo; previously JP Morgan.",
         "url": "https://johnkennedy9147.github.io/",
         "address": {
@@ -254,7 +287,7 @@
           </li>
           <li>
             <h3>JP Morgan</h3>
-            <h4>Software Engineer III</h4>
+            <h4>Software Engineer II → III</h4>
             <p>2018 - 2023</p>
             <p>
               Built and maintained a digital platform underpinning thousands of
