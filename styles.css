@@ -263,10 +263,17 @@ hgroup p {
   margin-bottom: 0.2rem;
 }
 
-#employment-list h4 {
+#employment-list dl {
+  margin-bottom: 0.5rem;
+}
+
+#employment-list dt {
   font-family: var(--font-body);
   font-weight: bold;
-  margin-bottom: 0.5rem;
+}
+
+#employment-list dd + dt {
+  margin-top: 0.5rem;
 }
 
 .achievements ~ ul li {
@@ -423,7 +430,8 @@ body.error-page main {
 
   h2,
   h3,
-  h4 {
+  h4,
+  dt {
     break-after: avoid;
   }
 

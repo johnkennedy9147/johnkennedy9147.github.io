@@ -86,3 +86,4 @@
 - [x] updated employment history to match cv and linkedin 
 - [x] added `worksFor` JSON-LD with employment history
 - [x] split JP Morgan employment into two to capture the 2022 promotion 
+- [x] restructured employment list to use description list of role/date pairs, visually and semantically better
