@@ -46,3 +46,4 @@ A personal CV and portfolio page built **entirely with HTML and CSS** to demonst
 ## Hosting
 
 This site is hosted on [GitHub Pages](https://pages.github.com/), making it easy to deploy and update directly from this repository.
+ 
